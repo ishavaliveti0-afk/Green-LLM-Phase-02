@@ -1,0 +1,24 @@
+#  Green LLM - Prompt Evaluation Framework
+
+## Overview
+Green LLM  phase 2 is a structured experimentation framework for evaluating prompt performance using IBM Watsonx models. The system enables reproducible benchmarking and controlled experimentation across prompt variations.
+
+## Features
+- Prompt signature versioning
+- Resume execution
+- Structured JSON output logging
+- Secure API handling via environment variables
+
+## Tech Stack
+- Python
+- IBM Watsonx API
+- Mistral LLM
+- JSON-based evaluation pipeline
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env
+# Add your API key inside .env
+python src/878_mistralai.py
